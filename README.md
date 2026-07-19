@@ -1,35 +1,103 @@
-# ecommerce-analytics
-Interactive E-commerce Analytics Dashboard built with Python and Streamlit.
+# 📊 E-Commerce Executive Analytics Dashboard
 
-# E-Commerce Executive Dashboard
+## 🚀 Overview
 
-## Overview
+This project is an end-to-end Data Analytics solution built using Python, Pandas, Streamlit, and Machine Learning.
 
-This project analyzes over 99,000 e-commerce orders and presents an interactive Streamlit dashboard for business executives.
+It analyzes over 99,000 e-commerce orders to provide business insights through an interactive executive dashboard.
 
-## Features
+---
 
-- Executive KPIs
-- Revenue Analysis
-- State Performance
-- Monthly Sales Trend
-- Customer Analysis
-- Product Analysis
-- Machine Learning Prediction
+## 🎯 Project Objectives
 
-## Technologies
+- Clean and transform raw business data
+- Perform exploratory data analysis (EDA)
+- Build an interactive dashboard
+- Analyze customer behavior
+- Analyze sales performance
+- Predict customer reviews using Machine Learning
+
+---
+
+## 📊 Dashboard Features
+
+- 📈 Executive KPIs
+- 💰 Revenue Analysis
+- 👥 Customer Analysis
+- 🏪 Seller Analysis
+- ⭐ Review Analysis
+- 🤖 Machine Learning Prediction
+
+---
+
+## 🛠 Technologies Used
 
 - Python
 - Pandas
+- NumPy
+- Matplotlib
 - Streamlit
-- Plotly
 - Scikit-learn
-- DuckDB
+- Git
+- GitHub
 
-## Dataset
+---
 
-Brazilian E-Commerce Public Dataset (Olist)
+## 📂 Project Structure
 
-## Author
+ecommerce-analytics/
+│
+├── dashboards/
+├── data/
+├── images/
+├── notebooks/
+├── reports/
+├── requirements.txt
+├── README.md
+└── .gitignore
 
-Solomon Sam
+---
+
+## 📸 Dashboard Screenshots
+
+(Images will be added here.)
+
+---
+
+## 📈 Machine Learning
+
+Model:
+- Random Forest Classifier
+
+Accuracy:
+- **73.9%**
+
+---
+
+## 📌 Business Insights
+
+The dashboard helps identify:
+
+- Highest revenue states
+- Preferred payment methods
+- Customer review patterns
+- Monthly sales trends
+- Seller performance
+
+---
+
+## 🚀 Future Improvements
+
+- Power BI Dashboard
+- Sales Forecasting
+- Customer Segmentation
+- Deep Learning Models
+- Cloud Deployment
+
+---
+
+## 👨‍💻 Author
+
+**Solomon Sam**
+
+Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning
