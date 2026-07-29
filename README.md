@@ -82,7 +82,7 @@ ecommerce-analytics/
 
 ### Machine Learning
 
-![Machine Learning](images/machine_learning.png)
+![Machine Learning](images/machine_learning.PNG)
 
 ---
 
