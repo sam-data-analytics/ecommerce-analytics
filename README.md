@@ -60,7 +60,29 @@ ecommerce-analytics/
 
 ## 📸 Dashboard Screenshots
 
-(Images will be added here.)
+### Executive Dashboard
+
+![Executive Dashboard](images/dashboard_home.jpg)
+
+### Sales Analysis
+
+![Sales Analysis](images/sales_analysis.jpg)
+
+### Customer Analysis
+
+![Customer Analysis](images/customer_analysis.png)
+
+### Seller Analysis
+
+![Seller Analysis](images/seller_analysis.png)
+
+### Review Analysis
+
+![Review Analysis](images/review_analysis.png)
+
+### Machine Learning
+
+![Machine Learning](images/machine_learning.png)
 
 ---
 

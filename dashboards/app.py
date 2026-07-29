@@ -46,8 +46,6 @@ st.set_page_config(
 
 #master_df = pd.read_csv(csv_path)
 
-st.title("📊 E-commerce Executive Dashboard")
-
 st.sidebar.title("Dashboard Menu")
 
 menu = st.sidebar.selectbox(
@@ -103,28 +101,6 @@ if len(date_range) == 2:
         (filtered_df["order_purchase_timestamp"].dt.date >= start_date) &
         (filtered_df["order_purchase_timestamp"].dt.date <= end_date)
     ]
-
-col1, col2, col3, col4 = st.columns(4)
-
-col1.metric(
-    "💰 Total Revenue",
-    f"R$ {filtered_df['payment_value'].sum():,.2f}"
-)
-
-col2.metric(
-    "🛒 Orders",
-    filtered_df['order_id'].nunique()
-)
-
-col3.metric(
-    "👥 Customers",
-    filtered_df['customer_unique_id'].nunique()
-)
-
-col4.metric(
-    "📦 Products",
-    filtered_df['product_id'].nunique()
-)
 
 #st.subheader("Revenue by State")
 
