@@ -20,7 +20,14 @@ def load_data():
 
     return df
 
-master_df = load_data()
+try:
+    master_df = load_data()
+    st.success("Data loaded successfully")
+    st.write("Shape:", master_df.shape)
+    st.write("Columns:", master_df.columns.tolist())
+except Exception as e:
+    st.error(f"Error loading data: {e}")
+    st.stop()
 # ==========================
 # Executive KPIs
 # ==========================
