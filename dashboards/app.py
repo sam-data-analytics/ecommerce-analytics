@@ -12,13 +12,20 @@ def load_data():
     BASE_DIR = os.path.dirname(os.path.dirname(__file__))
     csv_path = os.path.join(BASE_DIR, "data", "master_df.csv")
 
+    st.write("Loading:", csv_path)
+
     df = pd.read_csv(csv_path)
+
+    st.write("Shape:", df.shape)
+    st.write("Columns:", df.columns.tolist())
 
     df["order_purchase_timestamp"] = pd.to_datetime(
         df["order_purchase_timestamp"]
     )
 
     return df
+
+master_df = load_data()
 
 try:
     master_df = load_data()
